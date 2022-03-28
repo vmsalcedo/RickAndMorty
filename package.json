@@ -1,0 +1,19 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmsalcedo/desafio-SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmsalcedo/desafio-SASS/issues"
+  },
+  "homepage": "https://github.com/vmsalcedo/desafio-SASS#readme",
+  "description": ""
+}

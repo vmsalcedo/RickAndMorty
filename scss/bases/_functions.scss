@@ -1,0 +1,9 @@
+
+@function color($name) {
+    @return map-get($map: $paletacolores, $key: $name)
+};
+
+
+@function bordes($name) {
+    @return map-get($map: $bordes, $key: $name )
+};

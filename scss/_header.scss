@@ -1,0 +1,25 @@
+/*HEADER */
+.navbar{
+    background: linear-gradient(150deg, #155799, #00c298, #f10271);
+    background-size: 400% 300%;
+    animation: multicolores 10s ease infinite;
+
+    @keyframes multicolores {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+}
+
+.nav-item :hover{
+  color: white !important;
+
+}
+
+

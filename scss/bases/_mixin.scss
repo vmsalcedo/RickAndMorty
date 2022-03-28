@@ -1,0 +1,9 @@
+@mixin cards {
+        border: solid 5px bordes('borde-card-color');
+        border-radius: bordes('borde-radius-1');
+        overflow: hidden;
+        transition: all ease-out 0.9s;
+            &:hover {
+            transform: scale(1.08);
+          }
+    }
