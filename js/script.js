@@ -7,6 +7,14 @@ const IGV = 1.18
 const precioPoleras = 10
 const precioPijamas = 20
 
+function precioTotal (num1) {
+    return (num1 * precioPoleras) * (IGV)
+}
+
+
+function precioTotal2 (num1) {
+    return (num1 * precioPijamas) * (IGV)
+}
 
 
 
@@ -97,27 +105,19 @@ while (valor3) {
 
 
 
-function precioTotal (num1) {
-    return (num1 * precioPoleras) * (IGV)
-}
-
-
-function precioTotal2 (num1) {
-    return (num1 * precioPijamas) * (IGV)
-}
 
 
 
 
 if (producto==="poleras"){
     let precioFinal =precioTotal(cantidad)
-    alert("El precio es: S/."+precioFinal.toFixed(2))
+    alert("El precio por "+ cantidad +" Poleras "+"es: S/. " +precioFinal.toFixed(2) +" Incluido impuestos")
 }
 
 
 else if (producto==="pijamas"){
     let precioFinal =precioTotal2(cantidad)
-    alert("El precio es: S/."+precioFinal.toFixed(2))
+    alert("El precio por "+ cantidad +" Pijamas "+"es: S/. " +precioFinal.toFixed(2) +" Incluido impuestos")
 }
 
 
